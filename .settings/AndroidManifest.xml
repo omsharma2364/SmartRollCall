@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartrollcall"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.smartrollcall.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.smartrollcall.teacher_option"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.smartrollcall.LoginActivity"
+            android:label="@string/title_activity_login"
+            android:windowSoftInputMode="adjustResize|stateVisible" >
+        </activity>
+        <activity
+            android:name="com.example.smartrollcall.Teacher_option"
+            android:label="@string/title_activity_teacher_option" >
+        </activity>
+        <activity
+            android:name="com.example.smartrollcall.Teacher_update_info"
+            android:label="@string/title_activity_teacher_update_info" >
+        </activity>
+        <activity
+            android:name="com.example.smartrollcall.student_option"
+            android:label="@string/title_activity_teacher_update_info" >
+        </activity>
+        <activity
+            android:name="com.example.smartrollcall.student_update"
+            android:label="@string/title_activity_teacher_update_info" >
+        </activity>
+        <activity
+            android:name="com.example.smartrollcall.attendance_page"
+            android:label="@string/title_activity_teacher_update_info" >
+        </activity>
+        <activity
+            android:name="com.example.smartrollcall.test"
+            android:label="@string/title_activity_teacher_update_info" >
+        </activity>
+        <activity
+            android:name="com.example.smartrollcall.stud_att"
+            android:label="@string/title_activity_teacher_update_info" >
+        </activity>
+        <activity
+            android:name="com.example.smartrollcall.Buy_sell"
+            android:label="Buy Or Sell"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        </activity>
+        <activity
+            android:name="com.example.smartrollcall.Buy_reg"
+            android:label="@string/title_activity_buy_reg" >
+        </activity>
+        <activity
+            android:name="com.example.smartrollcall.Teacher__att"
+            android:label="@string/title_activity_teacher__att" >
+        </activity>
+        <activity
+            android:name="com.example.smartrollcall.Student_list"
+            android:label="@string/title_activity_student_list" >
+        </activity>
+    </application>
+
+</manifest>
